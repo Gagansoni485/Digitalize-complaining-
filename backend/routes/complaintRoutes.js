@@ -1,6 +1,6 @@
 import express from "express";
-import Complaint from "../models/Complaint.js";
-import Admin from "../models/Admin.js";
+import Complaint from "../models/complaint.js";
+import Admin from "../models/admin.js";
 import complaintDistribution from "../services/complaintDistribution.js";
 
 const router = express.Router();

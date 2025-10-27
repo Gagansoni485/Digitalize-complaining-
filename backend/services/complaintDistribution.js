@@ -1,5 +1,5 @@
-import Admin from "../models/Admin.js";
-import Complaint from "../models/Complaint.js";
+import Admin from "../models/admin.js";
+import Complaint from "../models/complaint.js";
 
 /**
  * Automatic Complaint Distribution Service
