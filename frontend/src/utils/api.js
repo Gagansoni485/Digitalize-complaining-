@@ -94,7 +94,7 @@ export const getAllAdmins = async (filters = {}) => {
     return response.json();
   } catch (error) {
     if (error.message.includes('Failed to fetch')) {
-      throw new Error('Cannot connect to server. Please ensure backend is running on port 5000');
+      throw new Error('Cannot connect to server. Please check your internet connection.');
     }
     throw error;
   }
