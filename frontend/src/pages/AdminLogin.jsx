@@ -49,7 +49,7 @@ const AdminLogin = () => {
         response.user.role === "super_admin" ? "Super Admin" : "Admin";
 
             // Redirect to role-based dashboard in admin-section
-      const path = response.user.role === "super_admin" ? "superadmin" : "admin";
+      const path = response.user.role === "super_admin" ? "admin/dashboard" : "admin/dashboard";
       const adminAppUrl = import.meta.env.VITE_ADMIN_APP_URL || "https://digitalize-complaining-backend.onrender.com";
       const userPayload = encodeURIComponent(btoa(JSON.stringify(response.user)));
       // Pass token & user via URL params for cross-origin handoff
