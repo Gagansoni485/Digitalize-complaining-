@@ -13,7 +13,7 @@ import ManageAdmins from './pages/ManageAdmins';
 import Profile from './pages/Profile';
 
 function App() {
-  const { admin } = useAuth();
+  const { user } = useAuth();
   
   return (
     <Routes>
@@ -25,7 +25,7 @@ function App() {
         path="/admin/dashboard"
         element={
           <ProtectedRoute>
-            {admin?.role === 'super_admin' ? <SuperAdminDashboard /> : <AdminDashboard />}
+            {user?.role === 'super_admin' ? <SuperAdminDashboard /> : <AdminDashboard />}
           </ProtectedRoute>
         }
       />
@@ -74,7 +74,7 @@ function App() {
       <Route
         path="/"
         element={
-          admin ? (
+          user ? (
             <Navigate to="/admin/dashboard" replace />
           ) : (
             <Navigate to="/admin/login" replace />
