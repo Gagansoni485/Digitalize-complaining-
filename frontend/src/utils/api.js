@@ -1,4 +1,4 @@
-const API_BASE_URL = import.meta.env.VITE_API_BASE_URL || 'http://localhost:5000/api';
+const API_BASE_URL = import.meta.env.VITE_API_BASE_URL || 'https://service-digital-complaining.onrender.com/api';
 
 // Student Authentication
 export const registerStudent = async (data) => {
@@ -17,7 +17,7 @@ export const registerStudent = async (data) => {
     return response.json();
   } catch (error) {
     if (error.message.includes('Failed to fetch')) {
-      throw new Error('Cannot connect to server. Please ensure backend is running on port 5000');
+      throw new Error('Cannot connect to server. Please check your internet connection.');
     }
     throw error;
   }
@@ -39,7 +39,7 @@ export const loginStudent = async (data) => {
     return response.json();
   } catch (error) {
     if (error.message.includes('Failed to fetch')) {
-      throw new Error('Cannot connect to server. Please ensure backend is running on port 5000');
+      throw new Error('Cannot connect to server. Please check your internet connection.');
     }
     throw error;
   }
@@ -62,7 +62,7 @@ export const registerAdmin = async (data) => {
     return response.json();
   } catch (error) {
     if (error.message.includes('Failed to fetch')) {
-      throw new Error('Cannot connect to server. Please ensure backend is running on port 5000');
+      throw new Error('Cannot connect to server. Please check your internet connection.');
     }
     throw error;
   }
@@ -116,7 +116,7 @@ export const loginAdmin = async (data) => {
     return response.json();
   } catch (error) {
     if (error.message.includes('Failed to fetch')) {
-      throw new Error('Cannot connect to server. Please ensure backend is running on port 5000');
+      throw new Error('Cannot connect to server. Please check your internet connection.');
     }
     throw error;
   }
