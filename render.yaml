@@ -1,0 +1,26 @@
+services:
+  - type: web
+    name: univoice-frontend
+    env: static
+    buildCommand: cd frontend && npm install && npm run build
+    staticPublishPath: frontend/dist
+    routes:
+      - type: rewrite
+        source: /*
+        destination: /index.html
+    envVars:
+      - key: NODE_ENV
+        value: production
+
+  - type: web
+    name: univoice-admin
+    env: static
+    buildCommand: cd admin-section && npm install && npm run build
+    staticPublishPath: admin-section/dist
+    routes:
+      - type: rewrite
+        source: /*
+        destination: /index.html
+    envVars:
+      - key: NODE_ENV
+        value: production

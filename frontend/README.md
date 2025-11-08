@@ -188,6 +188,34 @@ You can register any student account or use:
 **Issue**: Styles not loading
 - **Fix**: Ensure Tailwind is installed: `npm install -D tailwindcss`
 
+## 🚀 Deployment
+
+### Deploy to Render
+
+1. Create a new Web Service on Render
+2. Connect your GitHub repository
+3. Set the build command to:
+   ```
+   npm install && npm run build
+   ```
+4. Set the publish directory to:
+   ```
+   dist
+   ```
+5. Add environment variables if needed:
+   - `VITE_API_BASE_URL` - Your backend API URL
+
+### Fixing 404 Errors
+
+If you encounter `net::ERR_ABORTED 404 (Not Found)` errors:
+
+1. Ensure `base: './'` is set in `vite.config.js`
+2. Clear Render's build cache:
+   - Go to your Render dashboard
+   - Select your web service
+   - Click "Manual Deploy" → "Clear build cache & deploy"
+3. Redeploy the application to ensure the latest build is published
+
 ## 📦 Dependencies
 
 ### Production
