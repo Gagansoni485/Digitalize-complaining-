@@ -1,198 +1,166 @@
 <h1 align="center">📢 Digital Complaint Management System</h1>
 
-<h3 align="center">
-Role-Based Grievance Redressal Platform for Educational Institutions
-</h3>
+<p align="center">
+  <b>Secure • Role-Based • Transparent • Institution Ready</b>
+</p>
 
 <p align="center">
-  <b>Transparent • Structured • Secure • Multi-Dashboard Architecture</b>
+  A structured digital grievance platform designed to streamline complaint handling 
+  within educational institutions.
+</p>
+
+<p align="center">
+  <img src="https://img.shields.io/badge/Role-Based%20Access-Control-blue?style=for-the-badge" />
+  <img src="https://img.shields.io/badge/Multi-Dashboard-System-green?style=for-the-badge" />
+  <img src="https://img.shields.io/badge/Real-Time-Tracking-orange?style=for-the-badge" />
+  <img src="https://img.shields.io/badge/Secure-Workflow-purple?style=for-the-badge" />
 </p>
 
 ---
 
-<h2 align="center">🚀 Project Overview</h2>
+<h2 align="center">🚀 Overview</h2>
 
-The <b>Digital Complaint Management System</b> is a full-stack web application designed to digitize and streamline grievance handling within educational institutions.
+<p align="center">
+The <b>Digital Complaint Management System</b> replaces traditional manual grievance 
+registers with a structured, transparent, and trackable digital workflow.
+</p>
 
-The system introduces a structured, role-based workflow where:
-
-- Students submit complaints digitally  
-- Super Admin assigns complaints department-wise  
-- Teachers resolve complaints through dedicated dashboards  
-- Students track resolution status in real time  
-
-This eliminates manual paperwork and ensures transparency, accountability, and traceability.
-
----
-
-<h2 align="center">🎯 Problem Statement</h2>
-
-Traditional complaint systems in institutions are:
-
-- Manual and paper-based  
-- Lacking transparency  
-- Difficult to monitor  
-- Hard to track for students  
-
-This project solves these issues through a centralized digital workflow with fixed role-based access control.
+<p align="center">
+It ensures every complaint is recorded, assigned, monitored, and resolved 
+with complete accountability.
+</p>
 
 ---
 
-<h2 align="center">🏗 System Architecture</h2>
+<h2 align="center">🎯 Core Objective</h2>
 
-The application follows a <b>multi-role dashboard architecture</b> with fixed permissions assigned at registration.
-
-### 👨‍🎓 Student Module
-
-Students can:
-
-- Submit digital complaints
-- Select complaint category:
-  - Harassment
-  - Sports Issues
-  - Academic Concerns
-  - Examination Section
-  - Other Institutional Matters
-- Track complaint status:
-  - 🟡 In Progress  
-  - 🟢 Resolved  
-- View complaint history
-
-Students only access their own complaints.
+<p align="center">
+To build a transparent ecosystem where students can raise concerns confidently 
+and administrators can resolve them efficiently.
+</p>
 
 ---
 
-### 🛠 Super Admin Dashboard
+<h2 align="center">👨‍🎓 Student Section</h2>
 
-The Super Admin has full platform control.
+<p align="center">
+Students can digitally submit complaints under multiple categories such as:
+</p>
 
-Capabilities include:
+<p align="center">
+• Harassment <br>
+• Sports Issues <br>
+• Academics <br>
+• Examination Section <br>
+• General Concerns
+</p>
 
-- View all complaints across departments
-- View complete teacher list
-- Assign complaints to department-specific teachers
-- Monitor complaint progress
-- Maintain overall system accountability
+<p align="center">
+Students can also track complaint status in real-time:
+</p>
 
-The Super Admin acts as the central routing authority.
-
----
-
-### 👩‍🏫 Teacher Dashboard
-
-Each teacher has an individual dashboard.
-
-Teachers can:
-
-- View complaints assigned by Super Admin
-- Update complaint status
-- Mark complaints as resolved
-- Track assigned complaint history
-
-Teachers only see complaints relevant to their department.
+<p align="center">
+🟡 Pending <br>
+🔵 In Progress <br>
+🟢 Resolved
+</p>
 
 ---
 
-<h2 align="center">🔄 Complaint Workflow</h2>
+<h2 align="center">👩‍🏫 Teacher / Admin Dashboard</h2>
 
-1. Student submits complaint  
-2. Complaint is stored in the database  
-3. Super Admin reviews and assigns complaint  
-4. Teacher receives complaint in dashboard  
-5. Teacher updates status (In Progress / Resolved)  
-6. Student tracks updates in real time  
+<p align="center">
+Each department teacher has an individual dashboard where:
+</p>
 
-This structured flow ensures end-to-end visibility.
+<p align="center">
+• Assigned complaints are visible <br>
+• Status can be updated <br>
+• Resolution remarks can be added
+</p>
+
+<p align="center">
+Teachers can only view complaints directed to their department.
+</p>
 
 ---
 
-<h2 align="center">🔐 Security & Access Control</h2>
+<h2 align="center">🛠 Super Admin Dashboard</h2>
 
-- Role fixed at registration  
-- Role-based dashboard isolation  
-- Controlled complaint visibility  
-- Secure authentication mechanism  
-- No cross-role data exposure  
+<p align="center">
+The Super Admin acts as the central authority of the system.
+</p>
 
-The system ensures data privacy and proper authorization.
+<p align="center">
+• View all complaints <br>
+• View teacher list <br>
+• Route complaints to respective departments <br>
+• Monitor resolution progress <br>
+• Maintain institutional transparency
+</p>
+
+---
+
+<h2 align="center">🔐 Role-Based Registration</h2>
+
+<p align="center">
+Roles are fixed during registration:
+</p>
+
+<p align="center">
+👨‍🎓 Student <br>
+👩‍🏫 Teacher <br>
+🛠 Super Admin
+</p>
+
+<p align="center">
+This ensures structured access control and prevents unauthorized actions.
+</p>
 
 ---
 
 <h2 align="center">📊 Key Features</h2>
 
-- Multi-dashboard architecture  
-- Category-based complaint classification  
-- Real-time status tracking  
-- Structured complaint routing  
-- Digital record management  
-- Department-level accountability  
+<p align="center">
+✔ Digital Complaint Submission <br>
+✔ Department-Based Routing <br>
+✔ Real-Time Status Tracking <br>
+✔ Secure Role-Based Access <br>
+✔ Dashboard Monitoring <br>
+✔ Transparent Workflow
+</p>
 
 ---
 
-<h2 align="center">🛠 Tech Stack</h2>
-
-- Frontend: HTML / CSS / JavaScript  
-- Backend: (Add your backend tech here — Node.js / Django / Spring Boot etc.)  
-- Database: (MySQL / MongoDB / PostgreSQL etc.)  
-- Authentication: Role-based access control  
-
----
-
-<h2 align="center">📸 Application Preview</h2>
+<h2 align="center">🖼️ System Preview</h2>
 
 <p align="center">
-  <img src="images/student-dashboard.png" width="800"/>
+<img src="images/home.png" width="800"/>
 </p>
 
 <p align="center">
-  <img src="images/teacher-dashboard.png" width="800"/>
+<img src="images/student-dashboard.png" width="800"/>
 </p>
 
 <p align="center">
-  <img src="images/superadmin-dashboard.png" width="800"/>
+<img src="images/admin-dashboard.png" width="800"/>
 </p>
 
-> Replace image file names with your actual screenshots.
-
 ---
 
-<h2 align="center">🌟 Why This Project Stands Out</h2>
-
-This project demonstrates:
-
-- Real-world workflow modeling  
-- Multi-role authorization system  
-- Structured system design  
-- Clean dashboard separation  
-- Practical institutional use case  
-
-It reflects strong understanding of:
-
-- Access control systems  
-- Workflow management  
-- Full-stack application architecture  
-
----
-
-<h2 align="center">📌 Future Enhancements</h2>
-
-- Email/SMS notifications  
-- Analytics dashboard for complaint trends  
-- Escalation hierarchy  
-- Audit logs  
-- Role-based reporting  
-
----
-
-<h2 align="center">⭐ Project Status</h2>
-
-✅ Core workflow implemented  
-✅ Role-based dashboards  
-✅ Complaint tracking system  
-🔄 Future improvements planned  
-
----
+<h2 align="center">🌐 Why This Project?</h2>
 
 <p align="center">
-If you find this project useful, consider giving it a ⭐
+This system demonstrates practical implementation of:
 </p>
+
+<p align="center">
+• Role-Based Access Control <br>
+• Multi-Dashboard Architecture <br>
+• Complaint Lifecycle Management <br>
+• Real-World Institutional Workflow
+</p>
+
+---
+
+<h3 align="center">✨ Designed for transparency. Built for accountability.</h3>
