@@ -141,7 +141,7 @@ The system ensures data privacy and proper authorization.
 <h2 align="center">📸 Application Preview</h2>
 
 <p align="center">
-  <img src="images/student-dashboard.png" width="800"/>
+  <img src="https://github.com/Gagansoni485/Digitalize-complaining-/blob/main/Screenshot%202026-02-27%20105552.png?raw=true" width="800"/>
 </p>
 
 <p align="center">
