@@ -145,14 +145,10 @@ The system ensures data privacy and proper authorization.
 </p>
 
 <p align="center">
-  <img src="images/teacher-dashboard.png" width="800"/>
+  <img src="https://github.com/Gagansoni485/Digitalize-complaining-/blob/main/Screenshot%202026-02-27%20105957.png?raw=true" width="800"/>
 </p>
 
-<p align="center">
-  <img src="images/superadmin-dashboard.png" width="800"/>
-</p>
 
-> Replace image file names with your actual screenshots.
 
 ---
 
